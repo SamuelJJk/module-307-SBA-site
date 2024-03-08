@@ -1,0 +1,92 @@
+/* Keyanimation  */
+
+
+/* MediaQ */
+    /* Desktop view  */
+    @media (Max-width:1980px){
+        body{
+            background-color:green;
+        }
+    }
+    /* Tablet */
+    @media (Max-width:1080px){
+        body{
+            background-color:blueviolet;
+        }
+    }
+    /* moblie */
+    @media (Max-width:650px){
+        body{
+            background-color:seagreen;
+        }
+    }
+/* General Css */
+body{
+    margin: 0px;
+}
+.navDiv{
+    border: solid black;
+    height: 50px;
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.leftNav{
+    border: solid black;
+    width:20%;
+}
+.midNav{
+    border: solid black;
+    width:60%;
+}
+.rightNav{
+    border: solid black;
+    width:20%;
+}
+.logoContainer{
+    border: solid black;
+}
+.navLinks{
+    border: solid black;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nlink{
+    border: solid black;
+    width: 33%;
+}
+.lang{
+    border: solid black;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.firstContainer{
+    border: solid black;
+    margin: 1em;
+    height: 10vh;
+}
+.secondContainer{
+    border: solid black;
+    margin: 1em;
+    height: 10vh;
+}
+.thirdContainer{
+    border: solid black;
+    margin: 1em;
+    height: 10vh;
+}
