@@ -1,5 +1,28 @@
 /* Keyanimation  */
+@keyframes slide {
+    0%{
+        transform: translateX(-20px);
+    }
+    25%{
+        transform: translateX(0px);
+    }
+    50%{
+        transform: translateX(20px);
+    }
+    75%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(-20px);
+    }
 
+    
+}
+/* animation utilities   */
+.slide{
+    animation: slide infinite 4s 4s ease;
+    /* transform-origin: left; */
+}
 
 /* MediaQ */
     /* Desktop view  */
@@ -25,50 +48,72 @@ body{
     margin: 0px;
 }
 .navDiv{
-    border: solid black;
+    /* border: solid black; */
+    background-color: rgba(17,0,17,1.00);
+    color: white;
     height: 50px;
     width: 100%;
     margin: 0px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 15px 29px 11px #000000;
+    position: relative;  
+    z-index: 1;
 }
 .leftNav{
-    border: solid black;
+    /* border: solid black; */
     width:20%;
+    padding-left: 10px;
 }
 .midNav{
-    border: solid black;
+    /* border: solid black; */
     width:60%;
 }
 .rightNav{
-    border: solid black;
+    /* border: solid black; */
     width:20%;
-}
-.logoContainer{
-    border: solid black;
-}
-.navLinks{
-    border: solid black;
     display: flex;
     justify-content: space-evenly;
 }
+.logoContainer{
+    /* border: solid black; */
+}
+.logoContainer img{
+    height: 40px;
+    /* width: 100%; */
+}
+.navLinks{
+    /* border: solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
 .nlink{
-    border: solid black;
+    /* border: solid black; */
     width: 33%;
 }
+.nlink a{
+    color: white;
+    text-decoration: none;
+}
+.nlink a:hover{
+    .navLinks{
+        background-color: rgba(40, 37, 37, 0.368);
+    }
+    cursor: pointer;
+    color: blueviolet;
+}
 .lang{
-    border: solid black;
+    /* border: solid black; */
     display: flex;
     justify-content: flex-end;
+    padding-right: 15px;
 }
-
-
-
-
-
-
-
-
+.login:hover{
+    color: blueviolet;
+    cursor: pointer;
+}
 
 
 
@@ -77,14 +122,96 @@ body{
 
 .firstContainer{
     border: solid black;
-    margin: 1em;
-    height: 10vh;
+    /* margin: 1em; */
+    /* height: 10vh; */
+    width: 100%;
+    position: relative;
 }
+.splashimg{
+    /* border: solid blue; */
+    position: relative;
+}
+.splash{
+    width: 100%;
+}
+.splashInfoBox{
+    /* border: solid blue; */
+    border: none;
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 1.3em;
+    color: white;
+    background-color: rgba(0, 0 ,0 ,.1);
+    padding: 5px;
+    box-shadow: 0px 13px 29px -5px rgba(0,0,0,0.32);
+}
+.infoHeader{
+    /* border: solid white; */
+}
+.infoText{
+    /* border: solid white; */
+}
+.Signup{
+    /* border: solid white; */
+}
+.signup .btn,.btn-primary{
+    background-color: blueviolet;
+    border: blueviolet;
+}
+
+
+
+
+.preHeader{
+    text-align: center;
+    background-color:  rgba(17,0,17,1.00);
+    color: white;
+    padding: 5px;    
+    width: 100%;
+}
+.preHeader h2{
+   margin-left: 375px;
+    width: 50%;
+}
+
+
 .secondContainer{
     border: solid black;
-    margin: 1em;
-    height: 10vh;
+    /* margin: 1em; */
+    height: 450px;
+    display: flex;
 }
+.animeCover{
+    /* border: solid purple; */
+    height: 100%;
+    width: 35%;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: rgba(17,0,17,1.00) ;
+}.cover{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.previewBox{
+    /* border: solid plum; */
+    height: 100%;
+    width: 65%;
+    background-color: rgba(17,0,17,1.00) ;
+}
+.preview{
+    height: 100%;
+    width: 100%;
+    /* object-fit: cover; */
+}
+
+
+
+
+
 .thirdContainer{
     border: solid black;
     margin: 1em;
