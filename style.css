@@ -1,5 +1,5 @@
 /* Keyanimation  */
-@keyframes slide {
+@keyframes textslide {
     0%{
         transform: translateX(-20px);
     }
@@ -19,8 +19,8 @@
     
 }
 /* animation utilities   */
-.slide{
-    animation: slide infinite 4s 4s ease;
+.textslide{
+    animation: textslide infinite 4s 4s ease;
     /* transform-origin: left; */
 }
 
@@ -75,6 +75,7 @@ body{
     width:20%;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
 }
 .logoContainer{
     /* border: solid black; */
@@ -110,8 +111,16 @@ body{
     justify-content: flex-end;
     padding-right: 15px;
 }
-.login:hover{
-    color: blueviolet;
+.navbtn{
+    border: none;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+.navbtn:hover{
+    background-color: blueviolet;
+    color: blue;
     cursor: pointer;
 }
 
@@ -217,3 +226,40 @@ body{
     margin: 1em;
     height: 10vh;
 }
+
+
+
+
+
+
+
+.loginForm{
+    display: none; 
+    position: fixed; 
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    background-color: rgba(0,0,0,0.4);
+}
+.usercontent {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
