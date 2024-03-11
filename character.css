@@ -157,7 +157,6 @@ outline: 1px solid black;
     right: 1rem;
 }
 
-
 .bscarol{
     border: solid black;
     /* width: 100%; */
@@ -168,20 +167,37 @@ outline: 1px solid black;
 } 
 .carousel-inner{
     height: 100%;    
+    display: flex ;
     /* object-fit: scale-down; */
 }
 .carousel-item{
     height: 100%;
 }
+
+
+
+
+
+
+
+
+.char{
+    height: 100%;
+    display: flex;
+}
 .charimg{
+    border: solid brown;
+    display: flex;
     height: 100%;
     width: 40%;
 }
 .charimg img{
+    /* border: solid black; */
     height: 100%;
     object-fit: contain;
 }
-.charinfo{
+.charsinfo{
+    border: solid orange;
     width: 60%;
     height: 100%;
 }
