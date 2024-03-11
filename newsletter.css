@@ -2,7 +2,7 @@
     /* Desktop view  */
     @media (Max-width:1980px){
         body{
-            background-color:rgba(25, 23, 23, 0.807);;
+            background-color:rgba(25, 23, 23, 0.807);
         }
         body{
             margin: 0px;
@@ -17,7 +17,6 @@
             display: flex;
             justify-content: space-around;
             align-items: center;
-            box-shadow: 0px 15px 29px 11px #000000;
             position: relative;  
             z-index: 1;
         }
@@ -93,11 +92,71 @@
         .linkdropdown{
             display: none;
         }
+        .news-form-box{
+            border: solid black;
+            background-color: rgba(0, 0 ,0 ,.3);
+            /* height: 40vh; */
+            color: white;
+            margin:5em 15em;
+            width: 70%;
+            border-radius: 10px;
+        }
+        .heading-box{
+            /* border: solid black; */
+            text-align: center;
+            width: 100%;
+        }
+        .head-img{
+            width: 100%;
+        }
+        .head-img img{
+            height: 80px;
+        }
+        .form-box{
+            /* border: solid greenyellow; */
+            width: 100%;
+        }
+        .first-row{
+            border-bottom: solid black;
+            width: 100%;
+            display: flex;
+            padding: 5px;
+        }
+        .namebox{
+            width: 50%;
+            /* border-right: solid black; */
+        }
+        .emailbox{
+            /* border: solid black; */
+            width: 50%;
+        }
+        .second-row{
+            width: 100%;
+            border-bottom: solid black;
+            display: flex;
+            padding: 5px;
+        
+        }
+        .datebox{
+            width: 50%;
+        }
+        .radiobox{
+            width: 50%;
+        }
+        .third-row{
+            width: 100%;
+            padding: 5px;
+        
+        }
+        .fourth-row, .d-grid, .gap-2 {
+            padding: 5px;
+        
+        }
     }
     /* Tablet */
     @media (Max-width:1080px){
         body{
-            background-color: white;;
+            background-color:rgba(25, 23, 23, 0.807);
         }
         body{
             margin: 0px;
@@ -112,7 +171,6 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            box-shadow: 0px 15px 29px 11px #000000;
             position: relative;  
             z-index: 1;
         }
@@ -186,11 +244,74 @@
         .linkdropdown{
             display: block;
         }
+
+
+
+        .news-form-box{
+            border: solid black;
+            background-color: rgba(0, 0 ,0 ,.3);
+            /* height: 40vh; */
+            color: white;
+            margin:0px;
+            width: 100%;
+            border-radius: 10px;
+        }
+        .heading-box{
+            /* border: solid black; */
+            text-align: center;
+            width: 100%;
+        }
+        .head-img{
+            width: 100%;
+        }
+        .head-img img{
+            height: 80px;
+        }
+        .form-box{
+            /* border: solid greenyellow; */
+            width: 100%;
+        }
+        .first-row{
+            border-bottom: solid black;
+            width: 100%;
+            display: flex;
+            padding: 5px;
+        }
+        .namebox{
+            width: 50%;
+            /* border-right: solid black; */
+        }
+        .emailbox{
+            /* border: solid black; */
+            width: 50%;
+        }
+        .second-row{
+            width: 100%;
+            border-bottom: solid black;
+            display: flex;
+            padding: 5px;
+        
+        }
+        .datebox{
+            width: 50%;
+        }
+        .radiobox{
+            width: 50%;
+        }
+        .third-row{
+            width: 100%;
+            padding: 5px;
+        
+        }
+        .fourth-row, .d-grid, .gap-2 {
+            padding: 5px;
+        
+        }
     }
     /* moblie */
     @media (Max-width:650px){
         body{
-            background-color: white;;
+            background-color:rgba(25, 23, 23, 0.807);
         }        .navDiv{
             /* border: solid black; */
             background-color: #d5b3ed;
@@ -201,7 +322,6 @@
             display: flex;
             justify-content: space-around;    
             align-items: center;    
-            box-shadow: 0px 15px 29px 11px #000000;
             position: relative;  
             z-index: 1;
         }
@@ -277,6 +397,71 @@
             /* color: black; */
         }
 
+
+
+
+
+        .news-form-box{
+            border: solid black;
+            background-color: rgba(0, 0 ,0 ,.3);
+            height: 100%;
+            color: white;
+            margin:0px;
+            width: 100%;
+            border-radius: 0px;
+        }
+        .heading-box{
+            /* border: solid black; */
+            text-align: center;
+            width: 100%;
+        }
+        .head-img{
+            width: 100%;
+        }
+        .head-img img{
+            height: 80px;
+        }
+        .form-box{
+            /* border: solid greenyellow; */
+            width: 100%;
+        }
+        .first-row{
+            border-bottom: solid black;
+            width: 100%;
+            display: flex;
+            padding: 5px;
+        }
+        .namebox{
+            width: 50%;
+            /* border-right: solid black; */
+        }
+        .emailbox{
+            /* border: solid black; */
+            width: 50%;
+        }
+        .second-row{
+            width: 100%;
+            border-bottom: solid black;
+            display: flex;
+            padding: 5px;
+        
+        }
+        .datebox{
+            width: 50%;
+        }
+        .radiobox{
+            width: 50%;
+        }
+        .third-row{
+            width: 100%;
+            padding: 5px;
+        
+        }
+        .fourth-row, .d-grid, .gap-2 {
+            padding: 5px;
+        
+        }
+
     }
 /* General Css */
 body{
@@ -315,63 +500,3 @@ body{
   }
 
 
-.news-form-box{
-    border: solid black;
-    background-color: rgba(0, 0 ,0 ,.3);
-    /* height: 40vh; */
-    color: white;
-    margin:5em 15em;
-    width: 70%;
-    border-radius: 10px;
-}
-.heading-box{
-    /* border: solid black; */
-    text-align: center;
-    width: 100%;
-}
-.head-img{
-    width: 100%;
-}
-.head-img img{
-    height: 80px;
-}
-.form-box{
-    /* border: solid greenyellow; */
-    width: 100%;
-}
-.first-row{
-    border-bottom: solid black;
-    width: 100%;
-    display: flex;
-    padding: 5px;
-}
-.namebox{
-    width: 50%;
-    /* border-right: solid black; */
-}
-.emailbox{
-    /* border: solid black; */
-    width: 50%;
-}
-.second-row{
-    width: 100%;
-    border-bottom: solid black;
-    display: flex;
-    padding: 5px;
-
-}
-.datebox{
-    width: 50%;
-}
-.radiobox{
-    width: 50%;
-}
-.third-row{
-    width: 100%;
-    padding: 5px;
-
-}
-.fourth-row, .d-grid, .gap-2 {
-    padding: 5px;
-
-}
