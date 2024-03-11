@@ -4,99 +4,315 @@
         body{
             background-color:rgba(25, 23, 23, 0.807);;
         }
+        body{
+            margin: 0px;
+        }
+        .navDiv{
+            /* border: solid black; */
+            background-color: rgba(17,0,17,1.00);
+            color: white;
+            height: 50px;
+            width: 100%;
+            margin: 0px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            box-shadow: 0px 15px 29px 11px #000000;
+            position: relative;  
+            z-index: 1;
+        }
+        .leftNav{
+            /* border: solid black; */
+            width:20%;
+            padding-left: 10px;
+        }
+        .midNav{
+            /* border: solid black; */
+            width:60%;
+        }
+        .rightNav{
+            /* border: solid black; */
+            width:20%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .logoContainer p{
+            margin-top: 15px;
+        }
+        .logoContainer a{
+            /* border: solid black; */
+            display: flex;
+            align-items: center;
+            color: white;
+            text-decoration: none;
+        }
+        .logoContainer img{
+            height: 40px;
+            /* width: 100%; */
+        }
+        .navLinks{
+            /* border: solid black; */
+            display: flex;
+            justify-content: space-evenly;
+            text-align: center;
+        }
+        .nlink{
+            /* border: solid black; */
+            width: 33%;
+        }
+        .nlink a{
+            color: white;
+            text-decoration: none;
+        }
+        .nlink a:hover{
+            .navLinks{
+                background-color: rgba(40, 37, 37, 0.368);
+            }
+            cursor: pointer;
+            color: blueviolet;
+        }
+        .lang{
+            /* border: solid black; */
+            display: flex;
+            justify-content: flex-end;
+            padding-right: 15px;
+        }
+        .navbtn{
+            border: none;
+            background-color: transparent;
+            color: white;
+            border-radius: 5px;
+            padding: 5px;
+        }
+        .navbtn:hover{
+            background-color: blueviolet;
+            color: blue;
+            cursor: pointer;
+        }
+        .linkdropdown{
+            display: none;
+        }
     }
     /* Tablet */
     @media (Max-width:1080px){
         body{
             background-color: white;;
         }
+        body{
+            margin: 0px;
+        }
+        .navDiv{
+            /* border: solid black; */
+            background-color: rgba(17,0,17,1.00);
+            color: white;
+            height: 50px;
+            width: 100%;
+            margin: 0px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0px 15px 29px 11px #000000;
+            position: relative;  
+            z-index: 1;
+        }
+        .leftNav{
+            /* border: solid black; */
+            width:20%;
+            padding-left: 10px;
+        }
+        .midNav{
+            /* border: solid black; */
+            width:60%;
+            display: none;
+        }
+        .rightNav{
+            /* border: solid black; */
+            width:20%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .logoContainer p{
+            margin-top: 15px;
+        }
+        .logoContainer a{
+            /* border: solid black; */
+            display: flex;
+            align-items: center;
+            color: white;
+            text-decoration: none;
+        }
+        .logoContainer img{
+            height: 40px;
+            /* width: 100%; */
+        }
+        .navLinks{
+            /* border: solid black; */
+            display: flex;
+            justify-content: space-evenly;
+            text-align: center;
+        }
+        .nlink{
+            /* border: solid black; */
+            width: 33%;
+        }
+        .nlink a{
+            color: white;
+            text-decoration: none;
+        }
+        .nlink a:hover{
+            cursor: pointer;
+            color: blueviolet;
+        }
+        .lang{
+            /* border: solid black; */
+            display: flex;
+            justify-content: flex-end;
+            padding-right: 15px;
+        }
+        .navbtn{
+            border: none;
+            background-color: transparent;
+            color: white;
+            border-radius: 5px;
+            padding: 5px;
+        }
+        .navbtn:hover{
+            background-color: blueviolet;
+            color: blue;
+            cursor: pointer;
+        }
+        .linkdropdown{
+            display: block;
+        }
     }
     /* moblie */
     @media (Max-width:650px){
         body{
             background-color: white;;
+        }        .navDiv{
+            /* border: solid black; */
+            background-color: #d5b3ed;
+            color: black;
+            height: 50px;
+            width: 100%;
+            margin: 0px;
+            display: flex;
+            justify-content: space-around;    
+            align-items: center;    
+            box-shadow: 0px 15px 29px 11px #000000;
+            position: relative;  
+            z-index: 1;
         }
+        .leftNav{
+            /* border: solid black; */
+            width:40%;
+            padding-left: 10px;
+        }
+        .midNav{
+            /* border: solid black; */
+            /* width:60%; */
+            display: none;
+        }
+        .rightNav{
+            /* border: solid black; */
+            width:40%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+        .logoContainer p{
+            margin-top: 15px;
+        }
+        .logoContainer a{
+            /* border: solid black; */
+            display: flex;
+            align-items: center;
+            color: black;
+            text-decoration: none;
+        }
+        .logoContainer img{
+            height: 40px;
+            /* width: 100%; */
+        }
+        .navLinks{
+            /* border: solid black; */
+            display: flex;
+            justify-content: space-evenly;
+            text-align: center;
+        }
+        .nlink{
+            /* border: solid black; */
+            width: 33%;
+        }
+        .nlink a{
+            color: white;
+            text-decoration: none;
+        }
+        .nlink a:hover{
+            cursor: pointer;
+            color: blueviolet;
+        }
+        .lang{
+            /* border: solid black; */
+            display: flex;
+            justify-content: flex-end;
+            padding-right: 15px;
+        }
+        .navbtn{
+            border: none;
+            background-color: transparent;
+            color: black;
+            border-radius: 5px;
+            padding: 5px;
+        }
+        .navbtn:hover{
+            background-color: blueviolet;
+            color: blue;
+            cursor: pointer;
+        }
+        .linkdropdown{
+            display: block;
+            /* color: black; */
+        }
+
     }
 /* General Css */
 body{
     margin: 0px;
 }
-.navDiv{
-    /* border: solid black; */
-    background-color: rgba(17,0,17,1.00);
-    color: white;
-    height: 50px;
-    width: 100%;
-    margin: 0px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    /* box-shadow: 0px 15px 29px 11px #000000; */
-    position: relative;  
+
+.loginForm{
+    display: none; 
+    position: fixed; 
     z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    background-color: rgba(0,0,0,0.4);
 }
-.leftNav{
-    /* border: solid black; */
-    width:20%;
-    padding-left: 10px;
-}
-.midNav{
-    /* border: solid black; */
-    width:60%;
-}
-.rightNav{
-    /* border: solid black; */
-    width:20%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-.logoContainer{
-    /* border: solid black; */
-}
-.logoContainer img{
-    height: 40px;
-    /* width: 100%; */
-}
-.navLinks{
-    /* border: solid black; */
-    display: flex;
-    justify-content: space-evenly;
-    text-align: center;
-}
-.nlink{
-    /* border: solid black; */
-    width: 33%;
-}
-.nlink a{
-    color: white;
+.usercontent {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
     text-decoration: none;
-}
-.nlink a:hover{
-    .navLinks{
-        background-color: rgba(40, 37, 37, 0.368);
-    }
     cursor: pointer;
-    color: blueviolet;
-}
-.lang{
-    /* border: solid black; */
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 15px;
-}
-.navbtn{
-    border: none;
-    background-color: transparent;
-    color: white;
-    border-radius: 5px;
-    padding: 5px;
-}
-.navbtn:hover{
-    background-color: blueviolet;
-    color: blue;
-    cursor: pointer;
-}
+  }
 
 
 .news-form-box{

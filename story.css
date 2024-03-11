@@ -2,98 +2,609 @@
     /* Desktop view  */
     @media (Max-width:1980px){
         body{
-            background-color:green;
+            background-color:black;
+        }
+        body{
+            margin: 0px;
+        }
+        .navDiv{
+            /* border: solid black; */
+            background-color: rgba(17,0,17,1.00);
+            color: white;
+            height: 50px;
+            width: 100%;
+            margin: 0px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            box-shadow: 0px 15px 29px 11px #000000;
+            position: relative;  
+            z-index: 1;
+        }
+        .leftNav{
+            /* border: solid black; */
+            width:20%;
+            padding-left: 10px;
+        }
+        .midNav{
+            /* border: solid black; */
+            width:60%;
+        }
+        .rightNav{
+            /* border: solid black; */
+            width:20%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .logoContainer p{
+            margin-top: 15px;
+        }
+        .logoContainer a{
+            /* border: solid black; */
+            display: flex;
+            align-items: center;
+            color: white;
+            text-decoration: none;
+        }
+        .logoContainer img{
+            height: 40px;
+            /* width: 100%; */
+        }
+        .navLinks{
+            /* border: solid black; */
+            display: flex;
+            justify-content: space-evenly;
+            text-align: center;
+        }
+        .nlink{
+            /* border: solid black; */
+            width: 33%;
+        }
+        .nlink a{
+            color: white;
+            text-decoration: none;
+        }
+        .nlink a:hover{
+            .navLinks{
+                background-color: rgba(40, 37, 37, 0.368);
+            }
+            cursor: pointer;
+            color: blueviolet;
+        }
+        .lang{
+            /* border: solid black; */
+            display: flex;
+            justify-content: flex-end;
+            padding-right: 15px;
+        }
+        .navbtn{
+            border: none;
+            background-color: transparent;
+            color: white;
+            border-radius: 5px;
+            padding: 5px;
+        }
+        .navbtn:hover{
+            background-color: blueviolet;
+            color: blue;
+            cursor: pointer;
+        }
+        .linkdropdown{
+            display: none;
+        }
+
+
+        
+        .firstContainer{
+            border: solid black;
+            /* margin: 1em; */
+            /* height: 10vh; */
+            width: 100%;
+            position: relative;
+        }
+        .splashimg{
+            /* border: solid blue; */
+            position: relative;
+        }
+        .splash{
+            width: 100%;
+        }
+        .splashInfoBox{
+            /* border: solid blue; */
+            display: block;
+            border: none;
+            position: absolute;
+            top: 60%;
+            left: 25%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            font-size: 1.3em;
+            color: white;
+            background-color: rgba(0, 0 ,0 ,.1);
+            padding: 5px;
+            box-shadow: 0px 13px 29px -5px rgba(0,0,0,0.32);
+        }
+        .infoHeader{
+            /* border: solid white; */
+        }
+        .infoText{
+            /* border: solid white; */
+        }
+        .Signup{
+            /* border: solid white; */
+        }
+        .signup .btn,.btn-primary{
+            background-color: blueviolet;
+            border: blueviolet;
+        }
+        .hiddenbtn{
+            display: none;
+        }
+        .preHeader{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            background-color:  rgba(17,0,17,1.00);
+            color: white;
+            padding: 5px;    
+            width: 100%;
+        }
+        .preHeader h2{
+           /* margin-left: 375px; */
+           text-align: center;
+            width: 50%;
+        }
+        .secondContainer{
+            border: solid black;
+            /* margin: 1em; */
+            height: 450px;
+            display: flex;
+        }
+        .animeCover{
+            /* border: solid purple; */
+            height: 100%;
+            width: 35%;
+            padding-left: 5px;
+            padding-right: 5px;
+            background-color: rgba(17,0,17,1.00) ;
+        }.cover{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .previewBox{
+            /* border: solid plum; */
+            height: 100%;
+            width: 65%;
+            background-color: rgba(17,0,17,1.00) ;
+        }
+        .preview{
+            height: 100%;
+            width: 100%;
+            /* object-fit: cover; */
         }
     }
     /* Tablet */
-    @media (Max-width:1080px){
+    @media (Max-width:1280px){
         body{
             background-color:blueviolet;
         }
-    }
-    /* moblie */
-    @media (Max-width:650px){
         body{
-            background-color:seagreen;
+            margin: 0px;
+        }
+        .navDiv{
+            /* border: solid black; */
+            background-color: rgba(17,0,17,1.00);
+            color: white;
+            height: 50px;
+            width: 100%;
+            margin: 0px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0px 15px 29px 11px #000000;
+            position: relative;  
+            z-index: 1;
+        }
+        .leftNav{
+            /* border: solid black; */
+            width:20%;
+            padding-left: 10px;
+        }
+        .midNav{
+            /* border: solid black; */
+            width:60%;
+            display: none;
+        }
+        .rightNav{
+            /* border: solid black; */
+            width:20%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .logoContainer p{
+            margin-top: 15px;
+        }
+        .logoContainer a{
+            /* border: solid black; */
+            display: flex;
+            align-items: center;
+            color: white;
+            text-decoration: none;
+        }
+        .logoContainer img{
+            height: 40px;
+            /* width: 100%; */
+        }
+        .navLinks{
+            /* border: solid black; */
+            display: flex;
+            justify-content: space-evenly;
+            text-align: center;
+        }
+        .nlink{
+            /* border: solid black; */
+            width: 33%;
+        }
+        .nlink a{
+            color: white;
+            text-decoration: none;
+        }
+        .nlink a:hover{
+            cursor: pointer;
+            color: blueviolet;
+        }
+        .lang{
+            /* border: solid black; */
+            display: flex;
+            justify-content: flex-end;
+            padding-right: 15px;
+        }
+        .navbtn{
+            border: none;
+            background-color: transparent;
+            color: white;
+            border-radius: 5px;
+            padding: 5px;
+        }
+        .navbtn:hover{
+            background-color: blueviolet;
+            color: blue;
+            cursor: pointer;
+        }
+        .linkdropdown{
+            display: block;
+        }
+        
+        
+        
+        .firstContainer{
+            border: solid black;
+            /* margin: 1em; */
+            /* height: 10vh; */
+            width: 100%;
+            position: relative;
+        }
+        .splashimg{
+            /* border: solid blue; */
+            position: relative;
+        }
+        .splash{
+            width: 100%;
+        }
+        .splashInfoBox{
+            /* border: solid blue; */
+            display: block;
+            border: none;
+            position: absolute;
+            top: 60%;
+            left: 35%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            font-size: 1.3em;
+            color: white;
+            background-color: rgba(0, 0 ,0 ,.1);
+            padding: 5px;
+            box-shadow: 0px 13px 29px -5px rgba(0,0,0,0.32);
+        }
+        .infoHeader{
+            /* border: solid white; */
+        }
+        .infoText{
+            /* border: solid white; */
+        }
+        .Signup{
+            /* border: solid white; */
+        }
+        .signup .btn,.btn-primary{
+            background-color: blueviolet;
+            border: blueviolet;
+        }
+        .hiddenbtn,.d-grid,.gap-2,.col-6,.mx-auto{
+            display: none;
+        }
+        .preHeader{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            background-color:  rgba(17,0,17,1.00);
+            color: white;
+            padding: 5px;    
+            width: 100%;
+        }
+        .preHeader h2{
+           /* margin-left: 375px; */
+            /* width: 50%; */
+            /* text-align: center; */
+            font-size: 1rem;
+        }
+
+
+        .secondContainer{
+            border: solid black;
+            /* margin: 1em; */
+            height: 450px;
+            display: flex;
+            width: 100%;
+        }
+        .animeCover{
+            display: none;
+            /* border: solid purple; */
+            /* height: 100%; */
+            width: 35%;
+            /* padding-left: 5px; */
+            /* padding-right: 5px; */
+            background-color: rgba(17,0,17,1.00) ;
+        }
+        .cover{
+            width: 100%;
+            /* height: 100%; */
+            /* object-fit: cover; */
+        }
+        .previewBox{
+            /* border: solid plum; */
+            height: 100%;
+            width: 100%;
+            background-color: rgba(17,0,17,1.00) ;
+        }
+        .preview{
+            height: 100%;
+            width: 100%;
+            /* object-fit: cover; */
         }
     }
-/* General Css */
-body{
-    margin: 0px;
-}
-.navDiv{
-    /* border: solid black; */
-    background-color: rgba(17,0,17,1.00);
-    color: white;
-    height: 50px;
-    width: 100%;
-    margin: 0px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    /* box-shadow: 0px 15px 29px 11px #000000; */
-    position: relative;  
-    z-index: 1;
-}
-.leftNav{
-    /* border: solid black; */
-    width:20%;
-    padding-left: 10px;
-}
-.midNav{
-    /* border: solid black; */
-    width:60%;
-}
-.rightNav{
-    /* border: solid black; */
-    width:20%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-.logoContainer{
-    /* border: solid black; */
-}
-.logoContainer img{
-    height: 40px;
-    /* width: 100%; */
-}
-.navLinks{
-    /* border: solid black; */
-    display: flex;
-    justify-content: space-evenly;
-    text-align: center;
-}
-.nlink{
-    /* border: solid black; */
-    width: 33%;
-}
-.nlink a{
-    color: white;
-    text-decoration: none;
-}
-.nlink a:hover{
-    .navLinks{
-        background-color: rgba(40, 37, 37, 0.368);
+    /* moblie */
+    @media (Max-width:660px){
+        body{
+            background-color:seagreen;
+            margin: 0px;
+        }
+        .navDiv{
+            /* border: solid black; */
+            background-color: #d5b3ed;
+            color: black;
+            height: 50px;
+            width: 100%;
+            margin: 0px;
+            display: flex;
+            justify-content: space-around;    
+            align-items: center;    
+            box-shadow: 0px 15px 29px 11px #000000;
+            position: relative;  
+            z-index: 1;
+        }
+        .leftNav{
+            /* border: solid black; */
+            width:40%;
+            padding-left: 10px;
+        }
+        .midNav{
+            /* border: solid black; */
+            /* width:60%; */
+            display: none;
+        }
+        .rightNav{
+            /* border: solid black; */
+            width:40%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+        .logoContainer p{
+            margin-top: 15px;
+        }
+        .logoContainer a{
+            /* border: solid black; */
+            display: flex;
+            align-items: center;
+            color: black;
+            text-decoration: none;
+        }
+        .logoContainer img{
+            height: 40px;
+            /* width: 100%; */
+        }
+        .navLinks{
+            /* border: solid black; */
+            display: flex;
+            justify-content: space-evenly;
+            text-align: center;
+        }
+        .nlink{
+            /* border: solid black; */
+            width: 33%;
+        }
+        .nlink a{
+            color: white;
+            text-decoration: none;
+        }
+        .nlink a:hover{
+            cursor: pointer;
+            color: blueviolet;
+        }
+        .lang{
+            /* border: solid black; */
+            display: flex;
+            justify-content: flex-end;
+            padding-right: 15px;
+        }
+        .navbtn{
+            border: none;
+            background-color: transparent;
+            color: black;
+            border-radius: 5px;
+            padding: 5px;
+        }
+        .navbtn:hover{
+            background-color: blueviolet;
+            color: blue;
+            cursor: pointer;
+        }
+        .linkdropdown{
+            display: block;
+            /* color: black; */
+        }
+
+
+
+        .firstContainer{
+            border: solid black;
+            width: 100%;
+            height: 500px;
+            position: relative;
+        }
+        .splashimg{
+            /* border: solid blue; */
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+        .splash{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .splashInfoBox{
+            /* border: solid blue; */
+            border: none;
+            position: absolute;
+            top: 60%;
+            left: 25%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            font-size: 1.3em;
+            color: white;
+            background-color: rgba(0, 0 ,0 ,.1);
+            padding: 5px;
+            box-shadow: 0px 13px 29px -5px rgba(0,0,0,0.32);
+            display: none;
+        }
+        .hiddenbtn{
+            display: block;
+            width: 100%;
+            text-align: center;
+            background-color: #d5b3ed;
+            color: black;
+            height: 9vh;
+        }
+        .hiddenbtn h2{
+            font-size: 1.1rem;
+            padding: 2px;
+        }
+        .infoHeader{
+            /* border: solid white; */
+        }
+        .infoText{
+            /* border: solid white; */
+        }
+        .Signup{
+            /* border: solid white; */
+        }
+        .signup .btn,.btn-primary{
+            background-color: blueviolet;
+            border: blueviolet;
+        }
+        .preHeader{
+            display: none;
+            text-align: center;
+            background-color:  rgba(17,0,17,1.00);
+            color: white;
+            padding: 5px;    
+            width: 100%;
+        }
+        .preHeader h2{
+           margin-left: 375px;
+            width: 50%;
+            text-align: center;
+        }
+
+        .secondContainer{
+            border: solid black;
+            /* margin: 1em; */
+            height: 450px;
+            display: flex;
+        }
+        .animeCover{
+            /* border: solid purple; */
+            display: none;
+            height: 100%;
+            width: 35%;
+            padding-left: 5px;
+            padding-right: 5px;
+            background-color: rgba(17,0,17,1.00) ;
+        }
+        .cover{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .previewBox{
+            /* border: solid plum; */
+            height: 100%;
+            width: 100%;
+            background-color: rgba(17,0,17,1.00) ;
+        }
+        .preview{
+            height: 100%;
+            width: 100%;
+            /* object-fit: cover; */
+        }
+
+
+
     }
+/* General Css */
+
+
+.loginForm{
+    display: none; 
+    position: fixed; 
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    background-color: rgba(0,0,0,0.4);
+}
+.usercontent {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
     cursor: pointer;
-    color: blueviolet;
-}
-.lang{
-    /* border: solid black; */
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 15px;
-}
-.navbtn{
-    border: none;
-    background-color: transparent;
-    color: white;
-    border-radius: 5px;
-    padding: 5px;
-}
-.navbtn:hover{
-    background-color: blueviolet;
-    color: blue;
-    cursor: pointer;
-}
+  }

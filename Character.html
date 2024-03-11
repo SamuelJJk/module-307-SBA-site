@@ -15,7 +15,10 @@
     <div class="navDiv">
       <div class="leftNav">
         <div class="logoContainer">
-          <a href="index.html"><img src="https://dslv9ilpbe7p1.cloudfront.net/8nAm-YsBbxDswigGmEWqpA_store_logo_image.png" alt="" /></a>
+          <a href="index.html"
+            ><img src="https://dslv9ilpbe7p1.cloudfront.net/8nAm-YsBbxDswigGmEWqpA_store_logo_image.png" alt="" />
+            <p>SOLO-LVL</p>
+          </a>
         </div>
       </div>
       <div class="midNav">
@@ -26,7 +29,35 @@
         </div>
       </div>
       <div class="rightNav">
-        <div class="lang">Lang</div>
+        <button class="navbtn" id="login">Log-In</button>
+        <div class="linkdropdown">
+          <div class="dropdown">
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Links</a>
+
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="story.html">Story</a></li>
+              <li><a class="dropdown-item" href="character.html">Character</a></li>
+              <li><a class="dropdown-item" href="newsletter.html">Newsletter</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- pop form login  -->
+    <div id="info" class="loginForm">
+      <div class="usercontent">
+        <span class="close">&times;</span>
+        <div class="formBox">
+          <div class="login-form">
+            <form action="post">
+              <h1>Login</h1>
+              <label for="user-name">UserName:</label>
+              <input type="text" name="user-name" /> <br />
+              <label for="password">Password:</label>
+              <input type="password" name="password" />
+            </form>
+          </div>
+        </div>
       </div>
     </div>
     <!-- image cararol -->

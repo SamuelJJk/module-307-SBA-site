@@ -119,6 +119,9 @@
         .linkdropdown{
             display: none;
         }
+
+
+        
         .firstContainer{
             border: solid black;
             /* margin: 1em; */
@@ -299,7 +302,11 @@
         }
         .linkdropdown{
             display: block;
-        }.firstContainer{
+        }
+        
+        
+        
+        .firstContainer{
             border: solid black;
             /* margin: 1em; */
             /* height: 10vh; */
@@ -485,6 +492,9 @@
             display: block;
             /* color: black; */
         }
+
+
+
         .firstContainer{
             border: solid black;
             width: 100%;
